@@ -8,8 +8,8 @@ function randomClouds()
 
     spaceW=-400 - picture.height;
     spaceH=500 - picture.width;
-    
-    
+
+
 
     moveIt();
     Init2();Init3();Init4();
@@ -22,10 +22,10 @@ function Init2()
     spaceW=-400 - picture.height;
     spaceH=500 - picture.width;
     if(spaceH<0) spaceH=10;
-   
+
 
     moveIt();
-   
+
 
 }
 function Init3()
@@ -38,7 +38,7 @@ function Init3()
     if(spaceW<0) spaceW=10;
 
     moveIt();
-    
+
 
 }
 function Init4()
@@ -47,7 +47,7 @@ function Init4()
 
     spaceW=600 - picture.height;
     spaceH=500 - picture.width;
-    
+
 
     moveIt();
 
