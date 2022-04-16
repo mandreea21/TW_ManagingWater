@@ -1,0 +1,188 @@
+body{
+    background-color: #b8e0ef;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    overflow: hidden;
+}
+
+.title{
+    font-family: Helvetica;
+    color: #5bb674;
+    float: left;
+    text-align: center;
+    font-weight: 800;
+    -webkit-text-stroke: 1px #0f491f;
+    font-size: 2.7vw;
+    --stroke-color:#0f491f;
+    --stroke-width:10px;
+    margin-left: 1.5%;
+    margin-top: 1.5%;
+    line-height: 125%;
+    z-index: 100;
+
+    text-shadow: calc(var(--stroke-width) * 1) calc(var(--stroke-width) * 0) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * 0.9239) calc(var(--stroke-width) * 0.3827) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * 0.7071) calc(var(--stroke-width) * 0.7071) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * 0.3827) calc(var(--stroke-width) * 0.9239) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * 0) calc(var(--stroke-width) * 1) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * -0.3827) calc(var(--stroke-width) * 0.9239) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * -0.7071) calc(var(--stroke-width) * 0.7071) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * -0.9239) calc(var(--stroke-width) * 0.3827) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * -1) calc(var(--stroke-width) * 0) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * -0.9239) calc(var(--stroke-width) * -0.3827) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * -0.7071) calc(var(--stroke-width) * -0.7071) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * -0.3827) calc(var(--stroke-width) * -0.9239) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * 0) calc(var(--stroke-width) * -1) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * 0.3827) calc(var(--stroke-width) * -0.9239) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * 0.7071) calc(var(--stroke-width) * -0.7071) 0
+      var(--stroke-color),
+    calc(var(--stroke-width) * 0.9239) calc(var(--stroke-width) * -0.3827) 0
+      var(--stroke-color);
+}
+a{
+    color: #5bb674;
+}
+a:link{
+    text-decoration: none;
+}
+
+.login-box{
+    z-index: 10;
+    height: 100%;
+    width: 30%;
+    background-color: #133a5c;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    padding: 50px;
+    text-align: center;
+    color: #b8e0ef;
+}
+.titlu-text{
+    
+    margin-top: 30%;
+    text-align: center;
+    font-weight:800;
+    font-size: 3vw;
+    color: #b8e0ef;
+    z-index: 30;
+    margin-bottom: 30px;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px;
+  background-color:  #b8e0ef;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #45a049;
+  color: #b8e0ef;
+  padding: 12px 20px;
+  border: 1px, solid, beige;
+  border-radius: 4px;
+  cursor: pointer;
+  
+}
+
+input[type=submit]:hover {
+
+  background-color: #0f491f;
+  border: 2px, solid, beige;
+  
+}
+
+.mainpage-button {
+    width: 100%;
+    position: relative;
+    padding: 50px 50px 50px 50px;
+    font-size: 40px;
+    color: beige;
+    background-color: #133a5c;
+    background-image: url("../poze/spumabutoane.png");
+    background-size: cover;
+}
+
+#existing-acc {
+    margin-top: 150px;
+    margin-bottom: 10px;
+}
+
+#new-acc {
+    margin-top: 10px;
+}
+
+.waves{
+    
+    width: 100%;
+    position:absolute;
+    bottom: 0;
+    top: 90%;
+    left:0%;
+    
+    
+
+}
+#image1
+{
+    position: relative;
+    width:15%;
+    height: 10%;
+    top:auto;
+    left: auto;
+    z-index: -1;
+}
+#image2
+{
+  position: relative;
+
+    width: 15%;
+    height: 10%;
+    top:auto;
+    left: auto;
+    z-index: -1;
+}
+#image3
+{
+  position: relative;
+
+    width: 15%;
+    height: 10%;
+    top:auto;
+    left: auto;
+    z-index: -1;
+}
+#image4
+{
+  position: relative;
+
+    width: 15%;
+    height: 10%;
+    top:auto;
+    left: auto;
+    z-index: 20;
+}
+.cloud{
+  z-index: 10;
+}
