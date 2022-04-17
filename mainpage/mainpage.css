@@ -117,7 +117,7 @@ input[type=submit]:hover {
     width: 100%;
     position: relative;
     padding: 50px 50px 50px 50px;
-    font-size: 40px;
+    font-size: 3vw;
     color: beige;
     background-color: #133a5c;
     background-image: url("../poze/spumabutoane.png");

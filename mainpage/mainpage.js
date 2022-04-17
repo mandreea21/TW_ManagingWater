@@ -14,18 +14,18 @@ const startEvents = () => {
 
 const getRndInteger = (min, max) => {
     return Math.floor(Math.random() * (max - min) ) + min;
-  }
+}
 
-const randomClouds = () =>{
+const randomClouds = () => {
     picture=document.getElementById("image1");
 
     spaceW=-400 - picture.height;
     spaceH=500 - picture.width;
 
     moveIt();
-    Init2();Init3();Init4();
-
+    Init2(); Init3(); Init4();
 }
+
 const Init2 = () => {
     picture=document.getElementById("image2");
 
