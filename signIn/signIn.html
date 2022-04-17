@@ -5,65 +5,70 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-   
+
     <link rel="stylesheet" href="signIn.css">
 
 </head>
-<script src="signIn.js"> 
-             
+<script src="signIn.js">
+
 </script>
 <body onload="randomClouds()">
 
-    <div class="title" >
-        <a href="https://www.w3schools.com/cssref/pr_text_text-align.ASP">
-             MANAGING <br>
-             WATER TURBINES <br>
-             ON WEB
-        </a>
-    </div>
+<div class="title">
+    <a href="https://www.w3schools.com/cssref/pr_text_text-align.ASP">
+        MANAGING <br>
+        WATER TURBINES <br>
+        ON WEB
+    </a>
+</div>
 
-    <div class="login-box">
-        <div class="titlu-text">SIGN IN</div>
-        <form action="/action_page.php">
-            <label for="fname"></label>
-            <input type="text" id="fname" name="firstname" placeholder="Your name..">
-        
-            <label for="lname"></label>
-            <input type="text" id="lname" name="lastname" placeholder="Username..">
+<div class="login-box">
+    <div class="titlu-text">SIGN IN</div>
+    <form action="/action_page.php">
+        <label for="fname"></label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-            <label for="lname"></label>
-            <input type="text" id="lname" name="lastname" placeholder="Email..">
+        <label for="lusername"></label>
+        <input type="text" id="lusername" name="username" placeholder="Username..">
 
-            <label for="lname"></label>
-            <input type="text" id="lname" name="lastname" placeholder="Password..">
-    
-            <input type="submit" value="CONNECT">
-        </form>
-    </div>
+        <label for="lemail"></label>
+        <input type="text" id="lemail" name="email" placeholder="Email..">
 
-    <div class="waves">
-        <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="-1 0 1200 330" width="105%" style="margin: -10;position: fixed;
-        bottom: -100; stroke: #74b2ca;stroke-width: 6;text-shadow: 10px 10px 10px #000000;z-index: 9;"><path fill="#3d9fc5" fill-opacity="1" d="M0,320L18.5,282.7C36.9,245,74,171,111,133.3C147.7,96,185,96,222,101.3C258.5,107,295,117,332,133.3C369.2,149,406,171,443,186.7C480,203,517,213,554,208C590.8,203,628,181,665,197.3C701.5,213,738,267,775,277.3C812.3,288,849,256,886,213.3C923.1,171,960,117,997,106.7C1033.8,96,1071,128,1108,160C1144.6,192,1182,224,1218,218.7C1255.4,213,1292,171,1329,149.3C1366.2,128,1403,128,1422,128L1440,128L1440,320L1421.5,320C1403.1,320,1366,320,1329,320C1292.3,320,1255,320,1218,320C1181.5,320,1145,320,1108,320C1070.8,320,1034,320,997,320C960,320,923,320,886,320C849.2,320,812,320,775,320C738.5,320,702,320,665,320C627.7,320,591,320,554,320C516.9,320,480,320,443,320C406.2,320,369,320,332,320C295.4,320,258,320,222,320C184.6,320,148,320,111,320C73.8,320,37,320,18,320L0,320Z"></path>
-        </svg>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="105%" style="margin: -10;position: fixed;
-        bottom: -50; stroke: #74b2ca;stroke-width: 6;text-shadow: 10px 10px 10px #000000;z-index: 8;"><path fill="#3d9fc4" fill-opacity="1" d="M0,160L18.5,160C36.9,160,74,160,111,165.3C147.7,171,185,181,222,186.7C258.5,192,295,192,332,170.7C369.2,149,406,107,443,85.3C480,64,517,64,554,64C590.8,64,628,64,665,64C701.5,64,738,64,775,85.3C812.3,107,849,149,886,154.7C923.1,160,960,128,997,133.3C1033.8,139,1071,181,1108,192C1144.6,203,1182,181,1218,154.7C1255.4,128,1292,96,1329,90.7C1366.2,85,1403,107,1422,117.3L1440,128L1440,320L1421.5,320C1403.1,320,1366,320,1329,320C1292.3,320,1255,320,1218,320C1181.5,320,1145,320,1108,320C1070.8,320,1034,320,997,320C960,320,923,320,886,320C849.2,320,812,320,775,320C738.5,320,702,320,665,320C627.7,320,591,320,554,320C516.9,320,480,320,443,320C406.2,320,369,320,332,320C295.4,320,258,320,222,320C184.6,320,148,320,111,320C73.8,320,37,320,18,320L0,320Z"></path>
-        </svg>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="105%" style="margin: -10;position: fixed;
-        bottom: 0; stroke: #74b2ca;stroke-width: 6;text-shadow: 10px 10px 10px #000000;z-index: 7;"><path fill="#3d9fc5" fill-opacity="1" d="M0,96L34.3,122.7C68.6,149,137,203,206,213.3C274.3,224,343,192,411,181.3C480,171,549,181,617,202.7C685.7,224,754,256,823,272C891.4,288,960,288,1029,245.3C1097.1,203,1166,117,1234,80C1302.9,43,1371,53,1406,58.7L1440,64L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path>
-        </svg>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="105%" style="margin: -10;position: fixed;
-        bottom: 20; stroke: #74b2ca;stroke-width: 6;text-shadow: 10px 10px 10px #000000;z-index: 6;"><path fill="#3d9fc5" fill-opacity="1" d="M0,160L34.3,138.7C68.6,117,137,75,206,74.7C274.3,75,343,117,411,128C480,139,549,117,617,96C685.7,75,754,53,823,64C891.4,75,960,117,1029,165.3C1097.1,213,1166,267,1234,245.3C1302.9,224,1371,128,1406,80L1440,32L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path>
-        </svg>
-    </div>
+        <label for="lpassword"></label>
+        <input type="password" id="lpassword" name="password" placeholder="Password..">
+        <input type="submit" value="CONNECT">
+    </form>
+</div>
 
-    <div class="clouds">
-        <img src="nor.png" alt="" id="image1">
-        <img src="nor.png" alt="" id="image2">
-        <img src="nor.png" alt="" id="image3">
-        <img src="nor.png" alt="" id="image4">
-    </div>            
-       
-    
-    
+<div class="waves">
+    <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="-1 0 1200 330" width="105%" style="margin: -10;position: fixed;
+        bottom: -100; stroke: #74b2ca;stroke-width: 6;text-shadow: 10px 10px 10px #000000;z-index: 9;">
+        <path fill="#3d9fc5" fill-opacity="1"
+              d="M0,320L18.5,282.7C36.9,245,74,171,111,133.3C147.7,96,185,96,222,101.3C258.5,107,295,117,332,133.3C369.2,149,406,171,443,186.7C480,203,517,213,554,208C590.8,203,628,181,665,197.3C701.5,213,738,267,775,277.3C812.3,288,849,256,886,213.3C923.1,171,960,117,997,106.7C1033.8,96,1071,128,1108,160C1144.6,192,1182,224,1218,218.7C1255.4,213,1292,171,1329,149.3C1366.2,128,1403,128,1422,128L1440,128L1440,320L1421.5,320C1403.1,320,1366,320,1329,320C1292.3,320,1255,320,1218,320C1181.5,320,1145,320,1108,320C1070.8,320,1034,320,997,320C960,320,923,320,886,320C849.2,320,812,320,775,320C738.5,320,702,320,665,320C627.7,320,591,320,554,320C516.9,320,480,320,443,320C406.2,320,369,320,332,320C295.4,320,258,320,222,320C184.6,320,148,320,111,320C73.8,320,37,320,18,320L0,320Z"></path>
+    </svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="105%" style="margin: -10;position: fixed;
+        bottom: -50; stroke: #74b2ca;stroke-width: 6;text-shadow: 10px 10px 10px #000000;z-index: 8;">
+        <path fill="#3d9fc4" fill-opacity="1"
+              d="M0,160L18.5,160C36.9,160,74,160,111,165.3C147.7,171,185,181,222,186.7C258.5,192,295,192,332,170.7C369.2,149,406,107,443,85.3C480,64,517,64,554,64C590.8,64,628,64,665,64C701.5,64,738,64,775,85.3C812.3,107,849,149,886,154.7C923.1,160,960,128,997,133.3C1033.8,139,1071,181,1108,192C1144.6,203,1182,181,1218,154.7C1255.4,128,1292,96,1329,90.7C1366.2,85,1403,107,1422,117.3L1440,128L1440,320L1421.5,320C1403.1,320,1366,320,1329,320C1292.3,320,1255,320,1218,320C1181.5,320,1145,320,1108,320C1070.8,320,1034,320,997,320C960,320,923,320,886,320C849.2,320,812,320,775,320C738.5,320,702,320,665,320C627.7,320,591,320,554,320C516.9,320,480,320,443,320C406.2,320,369,320,332,320C295.4,320,258,320,222,320C184.6,320,148,320,111,320C73.8,320,37,320,18,320L0,320Z"></path>
+    </svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="105%" style="margin: -10;position: fixed;
+        bottom: 0; stroke: #74b2ca;stroke-width: 6;text-shadow: 10px 10px 10px #000000;z-index: 7;">
+        <path fill="#3d9fc5" fill-opacity="1"
+              d="M0,96L34.3,122.7C68.6,149,137,203,206,213.3C274.3,224,343,192,411,181.3C480,171,549,181,617,202.7C685.7,224,754,256,823,272C891.4,288,960,288,1029,245.3C1097.1,203,1166,117,1234,80C1302.9,43,1371,53,1406,58.7L1440,64L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path>
+    </svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="105%" style="margin: -10;position: fixed;
+        bottom: 20; stroke: #74b2ca;stroke-width: 6;text-shadow: 10px 10px 10px #000000;z-index: 6;">
+        <path fill="#3d9fc5" fill-opacity="1"
+              d="M0,160L34.3,138.7C68.6,117,137,75,206,74.7C274.3,75,343,117,411,128C480,139,549,117,617,96C685.7,75,754,53,823,64C891.4,75,960,117,1029,165.3C1097.1,213,1166,267,1234,245.3C1302.9,224,1371,128,1406,80L1440,32L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path>
+    </svg>
+</div>
+
+<div class="clouds">
+    <img src="nor.png" alt="" id="image1">
+    <img src="nor.png" alt="" id="image2">
+    <img src="nor.png" alt="" id="image3">
+    <img src="nor.png" alt="" id="image4">
+</div>
+
 </body>
 </html>
